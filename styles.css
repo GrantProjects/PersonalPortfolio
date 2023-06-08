@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background: linear-gradient(300deg,#666666, #1f1f1f,hsla(204, 3%, 34%, 0.788), #050505);
+  background-size: 180% 180%;
+  font-family: Helvetica, Arial, sans-serif;
+  animation: gradient-animation 25s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+   background-position: 0% 50%;
+      }
+    50% {
+   background-position: 100% 50%;
+      }
+    100% {
+    background-position: 0% 50%;
+    }
+    }
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #d2d2d2;
+  stroke          : black;
+  stroke-width    : 5px;
+  stroke-linejoin : round;
+  animation       : 2s pulsate infinite;
+}
+@keyframes pulsate {
+  50%{ stroke-width:5px }
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(54, 54, 54);
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: rgb(158, 3, 132);
+}
+
+.brown {
+  background-color: rgb(109, 70, 25);
+}
+
+.orange {
+  background-color: rgb(255, 145, 0);
+}
+
+.teal {
+  background-color: rgb(0, 255, 234);
+}
+
+.pink {
+  background-color: rgb(252, 132, 216);
+}
+
+.grey {
+  background-color: rgb(148, 148, 148);
+}
+
+.navy {
+  background-color: rgb(14, 3, 96);
+}
+
+.lime-green {
+  background-color: rgb(44, 226, 44);
+}
+
+.pressed {
+  box-shadow: 0 0 30px white;
+  background-color: rgb(223, 223, 223);
+}
+
+#description {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d2d2d2;
+}
+
+#description2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d2d2d2;
+  margin-bottom:  3%;
+}
